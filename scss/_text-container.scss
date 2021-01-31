@@ -1,0 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow: auto;
+}
+.text-container{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}

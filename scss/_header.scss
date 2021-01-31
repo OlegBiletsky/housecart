@@ -1,0 +1,26 @@
+.header-top{
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-top-navigation__item{
+    color: $housecart-color-6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 34px;
+    text-align: center;
+    margin-right: 45px;
+    &:last-child{
+        margin-right: 0;
+    }
+    &:first-child{
+        margin-left: 0;
+    }
+    &:hover{
+        color: $housecart-color-2;
+    }
+}
